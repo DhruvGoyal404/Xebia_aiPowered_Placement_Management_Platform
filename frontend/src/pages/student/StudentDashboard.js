@@ -440,7 +440,25 @@ const Profile = ({ me, onSaved }) => {
 
   return (
     <Card className="max-w-2xl p-6">
-      <h3 className="font-bold">Placement profile</h3>
+      <div className="flex items-center gap-4">
+        {me.profilePic ? (
+          <img
+            src={me.profilePic}
+            alt={me.username}
+            className="h-16 w-16 rounded-full object-cover ring-2 ring-brand-100 dark:ring-brand-500/30"
+          />
+        ) : (
+          <span className="grid h-16 w-16 place-items-center rounded-full bg-slate-100 text-2xl font-bold text-slate-400 dark:bg-slate-800 dark:text-slate-500">
+            {me.username?.[0]?.toUpperCase() || '👤'}
+          </span>
+        )}
+        <div>
+          <h3 className="text-lg font-bold">{me.username}</h3>
+          <p className="text-sm text-slate-500">{me.email}</p>
+        </div>
+      </div>
+
+      <h3 className="mt-6 font-bold">Placement profile</h3>
       <p className="mt-1 text-sm text-slate-500">
         Keep this current — your match scores are computed from it.
       </p>
