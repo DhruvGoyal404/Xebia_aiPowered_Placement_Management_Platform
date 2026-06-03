@@ -6,8 +6,15 @@
 
 **Live**
 - Frontend: https://xebia-placeiq.dhruvgoyal.tech
-- Backend: https://xebia-day3-placeiq.vercel.app
+- Backend: https://xebia-ai-powered-placement-manageme.vercel.app/
 - Repo: https://github.com/DhruvGoyal404/Xebia_aiPowered_Placement_Management_Platform
+
+**Built as a team** for the Day 3 Product Development Simulation:
+- Dhruv Goyal — [@DhruvGoyal404](https://github.com/DhruvGoyal404)
+- Sakshham Bhagat — [@SakshhamTheCoder](https://github.com/SakshhamTheCoder)
+- Ujjwal Dalal — [@ujjwaldalal7](https://github.com/ujjwaldalal7)
+- Arvin Saini — [@ArvinSaini](https://github.com/ArvinSaini)
+- Jeevant Verma — [@JeevantVerma](https://github.com/JeevantVerma)
 
 ---
 
